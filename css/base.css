@@ -1,0 +1,38 @@
+#fl-main-navbar{
+	background: #fff;
+}
+#fl-main-navbar li{
+	width: 25%;
+	text-align: center;
+	padding: 0;
+}
+.container-fluid{
+	padding: 0;
+}
+.row{
+	margin: 0;
+}
+.fl-active a{
+	color:#50BBA1;
+}
+#fl-main-navbar li a{
+	line-height: 28px;
+	padding: 10px 5px;
+	
+}
+#fl-header{
+	background: #50BBA1;
+	height:50px;
+}
+#fl-header li{
+	text-align: center;
+	line-height: 50px;
+}
+#fl-header li a:nth-child(1):active {
+	border-color:#50BBA1;
+	background: #50BBA1;
+}
+#fl-header li a{
+	line-height: 48px;
+	padding: 0;
+}

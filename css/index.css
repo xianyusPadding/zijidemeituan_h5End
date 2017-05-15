@@ -8,20 +8,20 @@
 #fl-header li:nth-child(3){
 	width: 7%;
 }
-#fl-main-1{
+#fl-main1{
 	margin-top: 50px;
 }
-#fl-main-1 figure{
+#fl-main1 figure{
 	text-align: center;
 	padding: 0;
 }
-#fl-main-1 figure img{
+#fl-main1 figure img{
 	margin-top:10px;
 	width: 55px;
 	height: 55px;
 	border-radius: 50px;
 }
-#fl-main-1 figcaption p{
+#fl-main1 figcaption p{
 	margin-top: 10px;
 	font-size: 12px;
 }

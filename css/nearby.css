@@ -9,7 +9,7 @@
 	margin-top: 50px;
 }
 .fl-row2{
-	margin-top: 10px;
+	margin: 15px 0;
 }
 .neardy-titl{
 	text-indent: 5px;
@@ -48,7 +48,7 @@
 	text-align: right;
 }
 .take-outDistance{
-	line-height: 60px;
+	line-height: 50px;
 }
 #fl-main-1 h4,p{
 	white-space: nowrap;

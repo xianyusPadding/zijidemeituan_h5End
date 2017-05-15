@@ -1,0 +1,20 @@
+#fl-loginMain-1{
+	margin-top: 50px;
+	border: none;
+}
+#fl-loginMain-1 ul{
+	background: #fff;
+	border: none;
+}
+#fl-loginMain-1 ul li{
+	background: #fff;
+	border: none;
+}
+#fl-loginMain-1 ul li a{
+	margin-left:20px;
+	color: #000;
+}
+#fl-loginMain-1 ul li:hover,#fl-loginMain-1 ul li:active,#fl-loginMain-1 ul li:visited{
+	border: none;
+	background-color: #fff;
+}

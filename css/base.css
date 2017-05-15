@@ -28,9 +28,10 @@
 	text-align: center;
 	line-height: 50px;
 }
-#fl-header li a:nth-child(1):active {
+#fl-header li a:hover,#fl-header li a:active,#fl-header li a:visited{
 	border-color:#50BBA1;
 	background: #50BBA1;
+	color: #000;
 }
 #fl-header li a{
 	line-height: 48px;

@@ -1,0 +1,102 @@
+#fl-header li{
+	padding: 0px 5px;
+}
+#fl-orderMain-1{
+	margin-top: 50px;
+}
+#fl-orderMain-1 .fl-orderTop{
+	border-bottom:1px solid #ddd ;
+}
+#fl-orderMain-1 .fl-orderTop p{
+	display: inline-block;
+	line-height: 45px;
+}
+#fl-orderMain-1 .fl-orderTop p:nth-child(1){
+	margin-left: 10px;
+	float: left;
+}
+#fl-orderMain-1 .fl-orderTop p:nth-child(2){
+	margin-right: 10px;
+	float: right;
+}
+#fl-orderMain-1 .fl-orderTop p span{
+	font-size: 12px;
+}
+.fl-order-style li{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+.fl-order-style li a{
+	line-height: 20px;
+	font-size: 13px;
+}
+.fl-order-style li span{
+	font-size: 20px;
+	line-height: 35px;
+	display: block;
+}
+.fl-order-style li:nth-child(1) span{
+	color: #54D5F3;
+}
+.fl-order-style li:nth-child(2) span{
+	color: #F0677A;
+}
+.fl-order-style li:nth-child(3) span{
+	color: #EED95A;
+}
+.fl-order-style li:nth-child(4) span{
+	color: #B573F0;
+}
+.fl-latelyTop{
+	margin: 10px 0;
+	padding-left: 10px;
+	background: #eee;
+}
+.fl-order-lately .col-xs-2,.fl-order-lately .col-xs-8{
+	padding: 0 5px;
+}
+.fl-order-lately img{
+	width:45px;
+}
+.fl-order-lately .col-xs-8 h4{
+	white-space: nowrap;
+	overflow: hidden;
+	padding-bottom: 7px;
+	font-size: 13px;
+}
+.fl-order-lately .col-xs-8 p{
+	font-size: 12px;
+}
+@media (min-width: 768px) {
+	.fl-order-style li a{
+		font-size: 13px;
+	}
+	.fl-order-style li a span{
+		font-size: 25px;
+	}
+	.fl-order-lately img{
+		width:70px;
+	}
+	.fl-order-lately .col-xs-8 h4{
+		padding-bottom: 10px;
+		font-size: 14px;
+	}
+	.fl-order-lately .col-xs-8 p{
+		font-size: 13px;
+	}
+}
+@media (min-width: 992px) {
+	.fl-order-style li a{
+		font-size: 14px;
+	}
+	.fl-order-style li a span{
+		font-size: 30px;
+	}
+	.fl-order-lately img{
+		width:80px;
+	}
+}
+@media (min-width: 1200px) {
+	
+}

@@ -1,0 +1,83 @@
+#fl-loginMain-1{
+	margin-top: 50px;
+	border: none;
+}
+#fl-loginMain-1 ul{
+	background: #fff;
+	border: none;
+	padding: 0;
+}
+#fl-loginMain-1 ul li{
+	margin:0px;
+	background: #fff;
+	border: none;
+	padding:0px;
+	border-bottom:3px solid #ccc;
+}
+#fl-loginMain-1 ul li a{
+	width: 50%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	color: #000;
+}
+#fl-loginMain-1 ul li:nth-child(1){
+	border-bottom:3px solid #50BBA1;
+}
+#fl-loginMain-1 ul li:nth-child(1) a{
+	color:#50BBA1;
+}
+#fl-loginMain-1 ul li:hover,#fl-loginMain-1 ul li:active,#fl-loginMain-1 ul li:visited{
+	border: none;
+	background-color: #fff;
+}
+#fl-loginIn,#fl-loginOut{
+	text-align: center;
+}
+#fl-loginIn input,#fl-loginOut input{
+	margin-bottom: 13px;
+}
+#loginIn-btn,#loginOut-btn{
+	width: 100%;
+	background: #50BBA1;
+}
+#fl-loginMain-2{
+	display: none;
+}
+#fl-loginMain-2 .fl-row1{
+	padding: 10px 0;
+	background: #50BBA1;
+	border-bottom: 6px solid #eee;
+}
+#fl-loginMain-2 .fl-row1 .col-xs-3{
+	padding-right: 0px;
+}
+#fl-loginMain-2 .fl-row1 .col-xs-9{
+	padding-left: 0px;
+}
+#fl-loginMain-2 .fl-row1 img{
+	width: 50px;
+	border-radius: 50px;
+}
+#fl-loginMain-2 .fl-row1 p{
+	line-height: 25px;
+}
+#fl-loginMain-2 .fl-row1 p span{
+	font-size: 12px;
+}
+#fl-loginMain-2 .fl-row2{
+	border-bottom: 6px solid #eee;
+}
+#fl-loginMain-2 .fl-row2 p{
+	display: inline-block;
+}
+#fl-loginMain-2 .fl-row2 ul li a p{
+	line-height: 35px;
+	border-bottom: 2px solid #eee;
+}
+#fl-loginMain-2 .fl-row2 ul li a p:nth-child(2){
+	text-align: right;
+}
+#fl-loginMain-2 .fl-row4{
+	margin-bottom: 50px;
+}

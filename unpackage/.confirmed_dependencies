@@ -1,0 +1,165 @@
+{
+  "login.html": {
+    "href": "login.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/jquery-ui.css",
+      "css/react.css",
+      "css/base.css",
+      "css/login.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/jquery-ui.js",
+      "js/base.js",
+      "js/login.js",
+      "service/user.js",
+      "images/defaultIcon.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "nearby.html",
+      "order.html",
+      "login.html"
+    ],
+    "priority": 0
+  },
+  "nearby.html": {
+    "href": "nearby.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/react.css",
+      "css/base.css",
+      "css/nearby.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/base.js",
+      "js/nearby.js",
+      "service/indexedDB.js",
+      "images/restaurant1.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "nearby.html",
+      "order.html",
+      "login.html"
+    ],
+    "priority": 0
+  },
+  "order.html": {
+    "href": "order.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/jquery-ui.css",
+      "css/react.css",
+      "css/base.css",
+      "css/order.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/jquery-ui.js",
+      "js/base.js",
+      "js/order.js",
+      "service/indexedDB.js",
+      "images/mian1-icon1.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "nearby.html",
+      "order.html",
+      "login.html"
+    ],
+    "priority": 0
+  },
+  "submitOrder.html": {
+    "href": "submitOrder.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/jquery-ui.css",
+      "css/react.css",
+      "css/base.css",
+      "css/submitOrder.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/jquery-ui.js",
+      "js/base.js",
+      "js/submitOrder.js"
+    ],
+    "refer": [
+      "order.html"
+    ],
+    "priority": 0
+  },
+  "setmealDetails.html": {
+    "href": "setmealDetails.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/react.css",
+      "css/base.css",
+      "css/setmealDetails.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/base.js",
+      "js/setmealDetails.js",
+      "images/restaurant1.jpg"
+    ],
+    "refer": [
+      "submitOrder.html"
+    ],
+    "priority": 0
+  },
+  "indexMain2Details.html": {
+    "href": "indexMain2Details.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/react.css",
+      "css/base.css",
+      "css/indexMain2Details.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/base.js",
+      "js/indexMain2Details.js",
+      "service/newResDetails.js",
+      "images/restaurant1.jpg"
+    ],
+    "refer": [
+      "setmealDetails.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/bootstrap.css",
+      "css/react.css",
+      "css/base.css",
+      "css/index.css",
+      "js/bootstrap.js",
+      "js/jquery.js",
+      "js/base.js",
+      "js/index.js",
+      "service/indexedDB.js",
+      "images/nearbyRes3.jpg",
+      "images/restaurant3.jpg",
+      "images/nearbyRes2.jpg",
+      "images/restaurant2.jpg",
+      "images/restaurant4.jpg",
+      "service/newResDetails.js",
+      "images/restaurant1.jpg",
+      "images/mian1-icon1.jpg",
+      "images/mian1-icon2.jpg",
+      "images/mian1-icon3.jpg",
+      "images/mian1-icon4.jpg",
+      "images/mian1-icon5.jpg",
+      "images/mian1-icon6.jpg",
+      "images/mian1-icon7.jpg",
+      "images/mian1-icon8.jpg"
+    ],
+    "refer": [
+      "indexMain2Details.html",
+      "index.html",
+      "nearby.html",
+      "order.html",
+      "login.html"
+    ],
+    "priority": 0
+  }
+}

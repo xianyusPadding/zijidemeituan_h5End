@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>line-restaurant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/jquery-ui.css"/>
+	<link rel="stylesheet" href="css/react.css"/>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css"/>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="service/user.js"></script>
+</head>
+<body>
+	
+<div id="fl-header" class="navbar-fixed-top">
+	<div class="container-fluid">
+		<ul class="nav nav-tabs row">
+			<li class="col-xs-1"><a href="javascript:history.go(-1)"><span class="glyphicon glyphicon-menu-left"></span></a></li>
+			<li class="col-xs-10"><a href="#">线上外卖</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="fl-loginMain-1">
+	<div class="container-fluid">
+		<ul class="row">
+			<li class="fl-tabs-loginIn col-xs-6"><a href="#fl-loginIn">登陆</a></li>
+			<li class="fl-tabs-loginOut col-xs-6"><a href="#fl-loginOut">注册</a></li>
+		</ul>
+		 <div id="fl-loginIn" class="row">
+		 	<input type="text" name="userId" id="loginIn_userId" class="form-control" placeholder="请输入账号："/>
+			<input type="password" name="pass" id="loginIn_userPass" class="form-control" placeholder="请输入密码："/>
+			<input type="button" id="loginIn-btn" class="btn btn-default" value="登陆"/>
+			<p style="float:right;color: #50BBA1;">找回密码</p>
+		 </div>
+		 <div id="fl-loginOut"  class="row">
+		 	<input type="text" name="userName" id="userName" class="form-control" placeholder="请输入昵称："/>
+		 	<input type="text" name="userId" id="userId" class="form-control" placeholder="请输入账号："/>
+			<input type="password" name="pass" id="password" class="form-control" placeholder="请输入密码："/>
+			<input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="请输入手机号码："/>
+			<input type="text" name="address" id="address" class="form-control" placeholder="请输入地址："/>
+		 	<input type="button" id="loginOut-btn" class="btn btn-default" value="注册"/>
+		 </div>
+	</div>
+</div>
+
+<div id="fl-loginMain-2" style="margin-top: 50px;">
+	<div class="container-fluid">
+		<div class="row fl-row1">
+			<div class="col-xs-3">
+				<img src="images/defaultIcon.jpg" alt="" />
+			</div>
+			<div class="col-xs-9">
+				<p>customer001</p>
+				<p>个人信息<span class="glyphicon glyphicon-menu-right"></span></p>
+			</div>
+		</div>
+		<div class="row fl-row2">
+			<ul>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-book"></span> 我的钱包</p>
+					<p class="col-xs-6">办信用卡<span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-yen"></span> 余额</p>
+					<p class="col-xs-6">￥0.00<span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-credit-card"></span> 抵用卷</p>
+					<p class="col-xs-6">1<span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-list-alt"></span> 卡包</p>
+					<p class="col-xs-6">0<span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+			</ul>
+		</div>
+		<div class="row fl-row2">
+			<ul>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-book"></span> 好友去哪</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-yen"></span> 我的评价</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-credit-card"></span> 我的收藏</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-list-alt"></span> 会员中心</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-list-alt"></span> 积分商城</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+			</ul>
+		</div>
+		<div class="row fl-row2 fl-row4">
+			<ul>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-book"></span> 客服中心</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-yen"></span> 我要合作</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+				<li><a href="#">
+					<p class="col-xs-6"><span class="glyphicon glyphicon-credit-card"></span> 关于美团</p>
+					<p class="col-xs-6"><span class="glyphicon glyphicon-menu-right"></span></p>
+				</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom" id="fl-main-navbar">
+	<div class="container-fluid">
+		<ul class="nav nav-tabs">
+			<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+			<li><a href="nearby.html"><span class="glyphicon glyphicon-cutlery"></span> 附近</a></li>
+			<li><a href="order.html"><span class="glyphicon glyphicon-th-list"></span> 订单</a></li>
+			<li class="fl-active"><a href="login.html"><span class="glyphicon glyphicon-user"></span> 我的</a></li>
+		</ul>
+	</div>
+</nav>
+</body>
+</html>

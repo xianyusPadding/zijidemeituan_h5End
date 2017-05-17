@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>line-restaurant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/jquery-ui.css"/>
+	<link rel="stylesheet" href="css/react.css"/>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/order.css"/>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/order.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="service/indexedDB.js"></script>
+</head>
+<body>
+	
+<div id="fl-header" class="navbar-fixed-top">
+	<div class="container-fluid">
+		<ul class="nav nav-tabs row">
+			<li class="col-xs-2 col-sm-1"><a href="">订单</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="fl-orderMain-1">
+	<div class="container-fluid">
+		<div class="row fl-orderTop">
+			<p>我的订单</p>
+			<p><a href="#">全部订单 <span class="glyphicon glyphicon-menu-right"></span></a></p>
+		</div>
+		<div class="row fl-order-style">
+			<ul>
+				<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>待付款</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>待使用</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>待评价</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon glyphicon-yen"></span>退款/售后</a></li>
+			</ul>
+		</div>
+		<div class="row fl-order-lately">
+			<p class="fl-latelyTop">最近订单</p>
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1">
+					<img src="images/mian1-icon1.jpg" alt="" />
+				</div>				
+				<div class="col-xs-8 col-sm-9 col-md-10">
+					<h4>御可 · 贡茶（赤坎步行街）</h4>
+					<p>有效期至：2017-07-31</p>
+					<p>数量：1</p>
+					<p>总价：￥12.80</p>
+				</div>
+				<p class="col-xs-2 col-sm-1">已消费</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom" id="fl-main-navbar">
+	<div class="container-fluid">
+		<ul class="nav nav-tabs">
+			<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+			<li><a href="nearby.html"><span class="glyphicon glyphicon-cutlery"></span> 附近</a></li>
+			<li class="fl-active"><a href="order.html"><span class="glyphicon glyphicon-th-list"></span> 订单</a></li>
+			<li><a href="login.html"><span class="glyphicon glyphicon-user"></span> 我的</a></li>
+		</ul>
+	</div>
+</nav>
+</body>
+</html>

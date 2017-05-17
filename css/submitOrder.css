@@ -1,0 +1,39 @@
+#fl-header{
+	background: #fff;
+}
+#fl-header ul li:nth-child(1){
+	width: 30%;
+}
+#fl-header ul li:nth-child(2),#fl-header ul li:nth-child(3){
+	width: 10%;
+	float: right;
+}
+#fl-main{
+	margin-top: 50px;
+}
+.fl-main-row1{
+	border-top: 6px solid #eee;
+}
+.fl-main-row1,.fl-main-row2{
+	border-bottom: 6px solid #eee;
+}
+.fl-main-row1 p,.fl-main-row2 p{
+	line-height: 35px;
+	border-bottom: 1px solid #eee;
+}
+.ui-widget-header{
+	background: #50BBA1;
+	border: none;
+}
+#fl-submitOrder{
+	line-height: 30px;
+	font-size: 12px;
+}
+
+
+
+
+#fl-bottom button{
+	border-radius: 0;
+	width: 100%;
+}

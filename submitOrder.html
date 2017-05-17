@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>line-restaurant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/react.css"/>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/submitOrder.css"/>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/submitOrder.js"></script>
+	<!--<script type="text/javascript" charset="utf-8" src="service/newResDetails.js"></script>-->
+</head>
+<body>
+	
+<div id="fl-header" class="navbar-fixed-top">
+	<div class="container-fluid">
+		<ul class="nav nav-tabs">
+			<li><a href="javascript:history.go(-1)"><span class="glyphicon glyphicon-menu-left"></span>提交订单</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="fl-main">
+	<div class="container-fluid">
+		<div class="row fl-main-row1">
+			<p class="col-xs-9 fl-orderTitle">御可 · 贡茶（赤坎步行街）</p>
+			<p class="col-xs-3 perPrice">￥12.8</p>
+			<p class="col-xs-8">数量</p>
+			<div class="col-xs-4 input-group">
+				<div class="input-group-btn">
+					<button class="btn btn-default fl-subBtn">-</button>
+				</div>
+				<input type="text" class="form-control" id="orderNumber" value="1"/>
+				<div class="input-group-btn">
+					<button class="btn btn-default fl-addBtn" style="color: #50BBA1;">+</button>
+				</div>
+			</div>
+			<p class="col-xs-9">小计</p>
+			<p class="col-xs-3 firstCost" style="color:#E9A254;">￥12.8</p>
+		</div>
+		<div class="row fl-main-row2">
+			<p class="col-xs-8">抵用卷</p>
+			<p class="col-xs-4" style="padding-left: 0;">使用抵用卷<span class="glyphicon glyphicon-menu-right"></span></p>
+			<p class="col-xs-9">总价</p>
+			<p class="col-xs-3 secondCost" style="color:#E9A254 ;">￥12.8</p>
+			
+		</div>
+	</div>	
+</div>
+
+<div id="fl-bottom" class="navbar-fixed-bottom">
+	<div class="container-fluid">
+		<button class="btn btn-danger fl-submitOrder-btn">提交订单</button>
+	</div>
+</div>
+
+<div id="fl-submitOrder">
+	<!--<button class='btn btn-default fl-orderSubmit2' style='background:#50BBA1;width:100%;margin-top:10px'>确定</button>-->
+</div>
+
+</body>
+</html>

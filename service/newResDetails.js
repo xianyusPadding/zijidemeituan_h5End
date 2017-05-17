@@ -29,8 +29,8 @@ $(function(){
 		
 		$('#fl-main2').on("click",'.fl-indexMain2-details',function(e){
 			var _this=$(this);
-			localStorage.keyId=_this.find('input').val();
-			window.location.href="indexMain2Details.html";
+			localStorage.keyId =_this.find('input').val();
+			window.location.href = "indexMain2Details.html";
 		})
 	}
 	req.onerror = function(e){

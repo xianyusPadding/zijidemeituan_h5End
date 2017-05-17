@@ -19,6 +19,7 @@ $(function(){
 
 	$("#loginOut-btn").click(function(){
 		add_user();
+		window.location.href = "login.html";
 	});
 	
 	$("#loginIn-btn").click(function(){

@@ -86,6 +86,10 @@ $(function(){
 						$('#fl-submitOrder').dialog('open');
 						$('#fl-submitOrder').html("订单：" + $('.fl-orderTitle').html() +  "<br>共消费：" + $('.secondCost').html() + "<br><button class='btn btn-default fl-orderSubmit2' style='background:#50BBA1;width:100%;margin-top:10px'>确定</button>");
 						$('.fl-orderSubmit2').click(function(){
+							var _this=$(this);
+							localStorage.secondCost =$('.secondCost').html();
+							localStorage.costNum = $('#orderNumber').val();
+//							alert(localStorage.secondCost + localStorage.costNum);
 							window.location.href="order.html";
 						})
 					})
